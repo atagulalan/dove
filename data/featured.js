@@ -1,4 +1,4 @@
 exports.featured = {
-    title:"check out the mighty demo blog",
+    title:"check out the mighty demo",
     link:"demo",
 }
