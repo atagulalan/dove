@@ -1,4 +1,4 @@
-# ferret
+# dove
 🕊️ Fast blog server
 
 ## Getting Started
