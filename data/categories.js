@@ -1,7 +1,7 @@
 exports.categories = {
-    "BLG":"Bilgi",
-    "TSR":"Tasarım",
-    "CTF":"Capture The Flag",
-    "RZL":"Rezillik",
-    "DRS":"Ders",
+    "ONE":"First Category",
+    "TWO":"Second Category",
+    "THR":"Third Category",
+    "FOU":"Fourth Category",
+    "FIV":"Fifth Category",
 }

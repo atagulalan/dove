@@ -1,4 +1,4 @@
 exports.featured = {
-    title:"akbankın ikonik kalp atışı",
-    link:"akbankin-ikonik-kalp-atisi",
+    title:"check out the mighty demo blog",
+    link:"demo",
 }

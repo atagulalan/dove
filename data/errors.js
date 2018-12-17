@@ -1,14 +1,14 @@
 exports.errors = {
     400:{
-        title: "Geçersiz istek...",
-        text: "Belki yanlış tıkladın, belki yanlış yönlendirildin. Kim bilir, belki de yanlışlıkla virgül tuşuna basmışsındır?",
+        title: "Bad Request...",
+        text: "The 400 Bad Request error is an HTTP status code that means that the request you sent to the website server, often something simple like a request to load a web page, was somehow incorrect or corrupted and the server couldn't understand it.",
         linkURL: "/", 
-        linkText: "Ana sayfaya dön"
+        linkText: "GO TO HOMEPAGE"
     },
     404:{
-        title: "Sayfa kayıplarda...",
-        text: "Burada normalde blog olması gerekiyordu, ama yok. Kim bilir, belki de hiç burada olmamıştı.",
+        title: "Not Found...",
+        text: "The HTTP 404, 404 Not Found, and 404 error message is a Hypertext Transfer Protocol (HTTP) standard response code, in computer network communications, to indicate that the client was able to communicate with a given server, but the server could not find what was requested.",
         linkURL: "/", 
-        linkText: "Ana sayfaya dön"
+        linkText: "GO TO HOMEPAGE"
     }
 }
