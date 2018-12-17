@@ -5,3 +5,4 @@ package-lock.json
 /pages/blogs/*
 /pages/lectures/*
 !/pages/blogs/demo/
+!/pages/blogs/yazilar/
