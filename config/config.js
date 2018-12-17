@@ -1,7 +1,7 @@
 exports.config = {
     port:5000,              //DOVE PORT
-    title:"XNB",            //SITE TITLE
-    cache:true,             //ENABLES IN-MEMORY CACHE, BEWARE IF YOU HAVE MEMORY LESS THAN 1GB
+    title:"DOVE",            //SITE TITLE
+    cache:false,             //ENABLES IN-MEMORY CACHE, BEWARE IF YOU HAVE MEMORY LESS THAN 1GB
     internal:true,          //ENABLES IN-LINE DEPENDENCIES, REDUCES REQUESTS BY CLIENT
     uglify:true,            //ENABLES UGLY (REALLY, REALLY UGLY) BUT FAST CSS & JS 
     debug:{

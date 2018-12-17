@@ -1,7 +1,7 @@
 <meta name="dependencies" content="styles.css" />
 
-# Yazılar
-Efendim burada, geçenlerde yazdığım yazıları bulacaksınız. En üsttekiler, en son yazılanlardır. Kategoriler yazıların solunda belirtilmiştir.
+# Articles
+You can find the articles below.
 
 <div class="yazilar">
 
