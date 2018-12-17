@@ -1,0 +1,7 @@
+/node_modules
+yarn.lock
+package-lock.json
+/server/node_modules
+/pages/blogs/*
+/pages/lectures/*
+!/pages/blogs/demo/

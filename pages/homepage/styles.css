@@ -1,0 +1,269 @@
+body {
+  overflow: hidden;
+}
+
+#root[data-page=homepage] header .limit {
+  max-width: 100%;
+}
+
+#root[data-page=homepage] header .limit .logo {
+  left: 120px;
+}
+
+#root[data-page=homepage] header .limit .menu {
+  display: none;
+}
+
+#root[data-page=homepage] header .limit .search {
+  background-image: url("/assets/img/png/search_white.png");
+}
+
+#root[data-page=homepage] main {
+  display: block;
+  height: 100vh;
+  width: 100%;
+}
+
+#root[data-page=homepage] main > .left {
+  float: left;
+  max-width: 1040px;
+  width: calc(100vw - 800px);
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#root[data-page=homepage] main > .left .item {
+  display: inline;
+  position: relative;
+  padding: 0 120px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#root[data-page=homepage] main > .left .item .coolLoad {
+  transition: 0.4s color;
+}
+
+#root[data-page=homepage] main > .left .item:hover .coolLoad:not(.loading) {
+  color: #f86e8f;
+}
+
+#root[data-page=homepage] main > .left .item h2 {
+  line-height: 1em;
+  font-weight: 400;
+  font-size: 54pt;
+}
+
+#root[data-page=homepage] main > .left .item .link {
+  clear: both;
+  display: inline-block;
+  font-size: 18pt;
+  transition: 0.5s letter-spacing;
+}
+
+#root[data-page=homepage] main > .left .item:hover .coolLoad:not(.loading) .link {
+  letter-spacing: 10px;
+}
+
+#root[data-page=homepage] main > .slider {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: right;
+  transition: 0.5s background;
+}
+
+#root[data-page=homepage] main > .slider .sliderImage {
+  width: 100%;
+  transition: 0.5s opacity, 0.5s transform;
+  transform: translateY(0px);
+}
+
+#root[data-page=homepage] main > .slider .sliderImage.unload {
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+#root[data-page=homepage] main > .slider .sliderImage.finish {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+#root[data-page=homepage] footer {
+  width: 100%;
+  height: 144px;
+  background-color: transparent;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+#root[data-page=homepage] footer .limit {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+#root[data-page=homepage] footer .limit .left {
+  text-decoration: none;
+  color: #282828;
+  display: flex;
+  align-items: center;
+  padding: 0 120px;
+  height: 100%;
+  width: calc(100vw - 800px);
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 18pt;
+  transition: 0.4s color;
+}
+
+#root[data-page=homepage] footer .limit .left:hover {
+  color: #f86e8f;
+}
+
+#root[data-page=homepage] footer .limit .left .floatRight {
+  margin-left: auto;
+}
+
+#root[data-page=homepage] footer .limit .right {
+  height: 100%;
+  width: 800px;
+  background: #282828;
+  display: flex;
+  align-items: center;
+}
+
+#root[data-page=homepage] footer .limit .right .counter {
+  width: 100%;
+  margin: 0 120px;
+  position: relative;
+}
+
+#root[data-page=homepage] footer .limit .right .counter .line {
+  position: absolute;
+  height: 3px;
+  border-radius: 6px;
+  width: 0%;
+  background: white;
+  left: 0px;
+  z-index: 1;
+  transition: 0.1s width linear, 0.5s opacity;
+}
+
+#root[data-page=homepage] footer .limit .right .counter .line.done {
+  opacity: 0;
+}
+
+#root[data-page=homepage] footer .limit .right .counter .line.reset {
+  width: 0% !important;
+}
+
+#root[data-page=homepage] footer .limit .right .counter .dots {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#root[data-page=homepage] footer .limit .right .counter .dots .dot {
+  width: 3px;
+  height: 3px;
+  background: #f86e8f;
+  border-radius: 6px;
+}
+
+#root[data-page=homepage] footer .limit .right .counter .dots .dot.bubble {
+  animation: ripple 0.5s ease-in-out 0s 1 normal forwards;
+}
+
+@media screen and (max-width: 1600px) {
+  #root[data-page=homepage] main .left {
+    width: 800px;
+  }
+  #root[data-page=homepage] main .right {
+    width: calc(100vw - 800px);
+  }
+  #root[data-page=homepage] footer .limit .left {
+    width: 800px;
+  }
+  #root[data-page=homepage] footer .limit .right {
+    width: calc(100vw - 800px);
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  #root[data-page=homepage] header .limit .search {
+    background-image: url("/assets/img/png/search_black.png");
+  }
+  #root[data-page=homepage] main .left {
+    width: 100%;
+  }
+  #root[data-page=homepage] main .right {
+    width: 0%;
+  }
+  #root[data-page=homepage] footer .limit .left {
+    width: 100%;
+  }
+  #root[data-page=homepage] footer .limit .right {
+    width: 0%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #root[data-page=homepage] header .limit {
+    text-align: center;
+    max-width: 100%;
+    padding: 0 24px;
+  }
+  #root[data-page=homepage] header .limit .logo {
+    left: calc(50% - 50px);
+  }
+  #root[data-page=homepage] header .limit .search {
+    display: none;
+  }
+  #root[data-page=homepage] main .left {
+    width: 100%;
+    text-align: center;
+  }
+  #root[data-page=homepage] main .left .item {
+    padding: 0 24px;
+  }
+  #root[data-page=homepage] main .left .item h2 {
+    font-size: 32pt;
+    margin: 0 auto;
+  }
+  #root[data-page=homepage] main .left .item span {
+    margin: 0 auto;
+  }
+  #root[data-page=homepage] main .right {
+    width: 0%;
+  }
+  #root[data-page=homepage] footer {
+    height: 80px;
+  }
+  #root[data-page=homepage] footer .limit .left {
+    padding: 0 24px;
+    text-align: center;
+    width: 100%;
+    font-size: 14pt;
+  }
+  #root[data-page=homepage] footer .limit .left div {
+    width: 100%;
+    display: inline-block;
+  }
+  #root[data-page=homepage] footer .limit .left .floatRight {
+    display: none;
+  }
+  #root[data-page=homepage] footer .limit .right {
+    width: 0%;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Xava'nın Naçizane Blog'u",
+    "short_name": "XNB",
+    "start_url": "/",
+    "theme_color": "#ffc759",
+    "background_color": "#ffffff",
+    "display":"standalone",
+    "orientation": "portrait"
+  }
