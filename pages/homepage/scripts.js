@@ -17,12 +17,6 @@ init = () => {
             items = [                   // Slider items
                 {
                     color: "#f86e8f",
-                    image: assets("slide3.png")
-                }, {
-                    color: "#f86e8f",
-                    image: assets("slide2.png")
-                }, {
-                    color: "#f86e8f",
                     image: assets("slide1.png")
                 }
             ],

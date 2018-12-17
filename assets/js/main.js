@@ -77,7 +77,7 @@ linkerInit = () => {
         }
     });
     let title = $("main h1", 0);
-    document.title = title ? title.innerText + " - DOVE" : "DOVE";
+    document.title = title ? title.innerText + " - dove." : "dove.";
 }
 
 getURL = (url, callback) => {

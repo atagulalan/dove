@@ -122,7 +122,7 @@ html, body{
     display: block;
     height:100%;
     position:relative;
-    overflow:hidden;
+    overflow:visible;
     &::before{
         content:'';
         background:#f86e8f;
@@ -132,6 +132,9 @@ html, body{
         left:0;
         top:0px;
         z-index:2;
+    }
+    &.loading{
+        overflow:hidden;
     }
     .waitLoad{
         opacity:0;

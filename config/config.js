@@ -1,6 +1,6 @@
 exports.config = {
     port:5000,              //DOVE PORT
-    title:"DOVE",            //SITE TITLE
+    title:"dove.",            //SITE TITLE
     cache:false,             //ENABLES IN-MEMORY CACHE, BEWARE IF YOU HAVE MEMORY LESS THAN 1GB
     internal:true,          //ENABLES IN-LINE DEPENDENCIES, REDUCES REQUESTS BY CLIENT
     uglify:true,            //ENABLES UGLY (REALLY, REALLY UGLY) BUT FAST CSS & JS 

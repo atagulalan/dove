@@ -7,8 +7,10 @@ You can find the articles below.
 
 `%IMPORT(postLinks)%`
 
-## Dersler
+<!--
+## Lectures
 `%IMPORT(lectureLinks)%`
+!-->
 
 </div>
 
